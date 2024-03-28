@@ -22,6 +22,30 @@
         <label for="fnacimiento">Fecha Nacimiento</label>
         <input type="date" name="fnacimiento" id="fnacimiento">
         <br>
+        <label for="pais">Nacionalidad</label>
+        <select required name="pais" id="pais">
+            <option value="">[Seleccione un país]</option>
+            <option value="1">Chile</option>
+            <option value="2">Peru</option>
+            <option value="3">Japón</option>
+            <option value="4">EE.UU</option>
+            <option value="5">Argentina</option>
+            <option value="6">Corea</option>
+        </select>
+
+        <select name="pais" id="pais">
+            <optgroup label="America">
+                <option value="">[Seleccione País]</option>
+                <option value="">EE.UU</option>
+                <option value="">Brasil</option>
+            </optgroup>
+            <optgroup label="Europa">
+                <option value="">España</option>
+                <option value="">Portugal</option>
+                <option value="">Italia</option>
+            </optgroup>
+        </select>
+        </select>
         <input type="submit" value="Enviar">
     </form>
     <a href="index.html">Volver</a>
